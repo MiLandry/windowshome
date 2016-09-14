@@ -1,0 +1,34 @@
+[core]
+	editor = 'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w
+	excludesfile = ~/.gitignore_global
+	autocrlf = true
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+	tool = kdiff3
+[credential]
+	helper = manager
+[user]
+	name = mland_laptop
+	email = mland@DESKTOP-PNEL2RP
+[help]
+	autocorrect = 1
+[color]
+	ui = auto
+[color "status"]
+	changed = yellow bold
+	untracked = yellow bold
+	added = green bold
+[diff]
+	tool = kdiff3
+	guitool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = false
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = false
+[alias]
+	dt = difftool
+	lga = log --graph --oneline --all --decorate
