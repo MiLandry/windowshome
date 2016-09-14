@@ -48,7 +48,7 @@ set laststatus=2                  " Show the status line all the time
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 " Or use vividchalk
-colorscheme topfunky-light
+" colorscheme topfunky-light
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
@@ -65,12 +65,18 @@ map <leader>tm :tabmove
 "map <Leader>t :FuzzyFinderTextMate<Enter>
 
 " Controversial...swap colon and semicolon for easier commands
-"nnoremap ; :
-"nnoremap : ;
+nnoremap ; :
+nnoremap : ;
 
-"vnoremap ; :
-"vnoremap : ;
+vnoremap ; :
+vnoremap : ;
 
 " Automatic fold settings for specific files. Uncomment to use.
 " autocmd FileType ruby setlocal foldmethod=syntax
 " autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
+
+
+map i <Left>
+map e <Up>
+map o <Down>
+map a <Right>
