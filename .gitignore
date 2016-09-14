@@ -3,3 +3,4 @@
 !.gitignore_global
 !.gitconfig
 !_vimrc
+!colors/*
