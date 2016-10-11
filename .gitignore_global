@@ -4,3 +4,4 @@ mike*
 .metadata*
 *.log*
 /bower_components
+/bin
