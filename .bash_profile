@@ -4,3 +4,5 @@ alias st='sublime'
     GIT_PROMPT_THEME=Default
     source "$(brew --prefix bash-git-prompt)/share/gitprompt.sh"
   fi
+
+alias chrome="open -a 'Google Chrome'"
