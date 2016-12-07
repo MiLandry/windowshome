@@ -5,3 +5,4 @@ mike*
 *.log*
 /bower_components
 /bin
+.tmp
