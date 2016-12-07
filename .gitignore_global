@@ -6,3 +6,4 @@ mike*
 /bower_components
 /bin
 .tmp
+.DS_Store
