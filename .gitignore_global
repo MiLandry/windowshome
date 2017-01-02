@@ -7,3 +7,5 @@ mike*
 /bin
 .tmp
 .DS_Store
+*.sublime-project
+*.sublime-workspace
