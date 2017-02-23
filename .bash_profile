@@ -5,6 +5,10 @@
 
 alias chrome="open -a 'Google Chrome'"
 
+alias st='subl'
+alias cls='clear'
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+export EDITOR='subl -w'
 
 # Add GHC 7.10.3 to the PATH, via https://ghcformacosx.github.io/
 export GHC_DOT_APP="/Applications/ghc-7.10.3.app"
