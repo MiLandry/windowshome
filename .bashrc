@@ -21,6 +21,8 @@
 
 SSH_ENV=$HOME/.ssh/environment
   
+source ~/.bash-git-prompt/gitprompt.shbind 'set completion-ignore-case on'
+
 # start the ssh-agent
 function start_agent {
     echo "Initializing new SSH agent..."
@@ -41,4 +43,4 @@ else
     start_agent;
 fi
 
-   source ~/.bash-git-prompt/gitprompt.sh
+

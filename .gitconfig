@@ -1,6 +1,6 @@
 [core]
 	editor = 'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/michaellandry/.gitignore_global
 	autocrlf = input
 [push]
 	default = upstream
@@ -10,8 +10,8 @@
 [credential]
 	helper = manager
 [user]
-	name = mland_laptop
-	email = mland@DESKTOP-PNEL2RP
+	name = michaelLandry
+	email = michael.landry@turner.com
 [help]
 	autocorrect = 1
 [color]
@@ -44,3 +44,11 @@
 [alias]
 	dt = difftool
 	lga = log --graph --oneline --all --decorate
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/michaellandry/.stCommitMsg
