@@ -1,6 +1,6 @@
 [core]
 	editor = 'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w
-	excludesfile = /Users/michaellandry/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = input
 [push]
 	default = upstream
@@ -10,8 +10,8 @@
 [credential]
 	helper = manager
 [user]
-	name = michaelLandry
-	email = michael.landry@turner.com
+	name = hamsterofdark
+	email = mlandryviolin@gmail.com
 [help]
 	autocorrect = 1
 [color]
@@ -51,4 +51,4 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
-	template = /Users/michaellandry/.stCommitMsg
+	template = ~/.stCommitMsg
