@@ -1,6 +1,6 @@
 [core]
 	editor = 'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/a1307820/.gitignore_global
 	autocrlf = input
 [push]
 	default = upstream
