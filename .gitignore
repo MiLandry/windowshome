@@ -2,6 +2,6 @@
 !.gitignore
 !.gitignore_global
 !.gitconfig
-!_vimrc
+!.vimrc
 !colors
 !colors/*
