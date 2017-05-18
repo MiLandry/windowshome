@@ -34,7 +34,6 @@
 	tool = kdiff3
 	guitool = kdiff3
 [mergetool "kdiff3"]
-	path = C:/Program Files/KDiff3/kdiff3.exe
 	trustExitCode = false
 [difftool "kdiff3"]
 	path = C:/Program Files/KDiff3/kdiff3.exe
