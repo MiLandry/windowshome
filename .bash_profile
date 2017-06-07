@@ -21,4 +21,4 @@ fi
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 
 #export rust to path
-export PATH="~/.cargo.bin:$PATH"
+export PATH="~/.cargo/bin:$PATH"
