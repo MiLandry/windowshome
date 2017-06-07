@@ -17,4 +17,8 @@ if [ -d "$GHC_DOT_APP" ]; then
 fi
 
 
-[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
+#load nvm
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
+
+#export rust to path
+export PATH="~/.cargo.bin:$PATH"
