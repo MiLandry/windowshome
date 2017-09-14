@@ -7,7 +7,7 @@ alias chrome="open -a 'Google Chrome'"
 
 alias st='subl'
 alias cls='clear'
-export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+export PATH==/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
 export EDITOR='subl -w'
 
 # Add GHC 7.10.3 to the PATH, via https://ghcformacosx.github.io/
@@ -23,3 +23,8 @@ nvm use 8
 
 #export rust to path
 export PATH="~/.cargo/bin:$PATH"
+
+source ~/.idg_profile
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+
+source ~/.git-prompt.sh

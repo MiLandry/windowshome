@@ -1,9 +1,9 @@
 [core]
 	editor = 'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w
-	excludesfile = /Users/a1307820/.gitignore_global
+	excludesfile = /Users/mlandry/.gitignore_global
 	autocrlf = input
 [push]
-	default = upstream
+	default = current
 [merge]
 	conflictstyle = diff3
 	tool = kdiff3
@@ -13,7 +13,7 @@
 [help]
 	autocorrect = 1
 [color]
-	ui = auto
+	ui = true
     branch = auto
     diff = auto
     status = auto
@@ -42,12 +42,16 @@
 	dt = difftool
 	lga = log --graph --oneline --all --decorate
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	trustExitCode = true
 [commit]
 	template = ~/.stCommitMsg
 [http]
 	sslVerify = false
+[branch]
+	autosetuprebase = always
+[rerere]
+	enabled = 1
