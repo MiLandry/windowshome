@@ -28,3 +28,6 @@ source ~/.idg_profile
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
 
 source ~/.git-prompt.sh
+# WarpDir (v1.6.0, appended on 2017-09-15 16:23:54 -0400) BEGIN
+[[ -f ~/.bash_wd ]] && source ~/.bash_wd
+# WarpDir (v1.6.0, appended on 2017-09-15 16:23:54 -0400) END
