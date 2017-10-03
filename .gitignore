@@ -2,6 +2,7 @@
 !.gitignore
 !.gitignore_global
 !.gitconfig
+!.git-prompt
 !.vimrc
 !colors
 !colors/*
