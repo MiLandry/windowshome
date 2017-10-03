@@ -5,6 +5,7 @@ alias chrome="open -a 'Google Chrome'"
 alias st='subl'
 alias cls='clear'
 alias killn='killall -9 node; sudo killall -9 node;'
+alias gas='git status'
 
 source ~/.git-prompt.sh
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
