@@ -1,5 +1,5 @@
 [core]
-
+	editor = 'subl' --wait
 	excludesfile = /Users/mlandry/.gitignore_global
 	autocrlf = input
 [push]
@@ -47,11 +47,14 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	trustExitCode = true
-[commit]
-	template = ~/.stCommitMsg
 [http]
 	sslVerify = false
 [branch]
 	autosetuprebase = always
 [rerere]
 	enabled = 1
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
