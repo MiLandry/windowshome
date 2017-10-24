@@ -6,6 +6,11 @@ alias st='subl'
 alias cls='clear'
 alias killn='killall -9 node; sudo killall -9 node;'
 alias gas='git status'
+alias gpull='git pull'
+alias paste='pbpaste'
+#also you should rely on keyboard maestro to blow up typed aliases
+
+
 
 source ~/.git-prompt.sh
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
