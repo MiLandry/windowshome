@@ -5,6 +5,14 @@
 # use .bash_profile until you know you need to use this instead
 
 
+
+#adhoc here if somethsay add to bash rc put here
+
+#add go to path
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+
 #    # Set config variables first
 #    GIT_PROMPT_ONLY_IN_REPO=1
 
