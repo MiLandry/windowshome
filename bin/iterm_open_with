@@ -1,4 +1,7 @@
 #!/bin/sh
+
+#This file lets you open stuff from the iterm terminal
+
 # iterm_open_with - open a URL, file from CWD, full path, or path with linenumber in default app or Sublime Text if text file
 #                   For usage with iTerm2:
 #                   In iTerm's Preferences > Profiles > Default > Advanced > Semantic History,

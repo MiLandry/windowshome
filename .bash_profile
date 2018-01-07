@@ -1,4 +1,4 @@
-
+# This is the file you want to use to configure bash, there is also .bashrc but this one is better to use.
 
 #alias land
 alias chrome="open -a 'Google Chrome'"
