@@ -41,3 +41,5 @@ source ~/.idg_profile
 # WarpDir (v1.6.0, appended on 2017-09-15 16:23:54 -0400) BEGIN
 [[ -f ~/.bash_wd ]] && source ~/.bash_wd
 # WarpDir (v1.6.0, appended on 2017-09-15 16:23:54 -0400) END
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
