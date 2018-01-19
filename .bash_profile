@@ -1,3 +1,5 @@
+#!/bin/bash
+#This script runs at the start of every new terminal shell
 # This is the file you want to use to configure bash, there is also .bashrc but this one is better to use.
 
 #alias land
@@ -46,16 +48,10 @@ echo 'mike computer'
 
 fi
 
-
-
-
 #work machine
-
-if [ "$HOSTNAME" = mlandry ]; then
-source ~/.idg_profile
-[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
-
-
-
-
+workComputer=it-mbp-mlandry
+if [ "$HOSTNAME" = $workComputer ]; then
+  echo 'work computer'
+  source ~/.idg_profile # idg stuff
+  [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
 fi
