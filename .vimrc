@@ -178,6 +178,64 @@ inoremap L O
 inoremap : A
 inoremap " _
 
+" bottom row lower
+
+
+inoremap z j
+inoremap x w
+inoremap c m
+inoremap v b
+
+inoremap b x
+
+inoremap n v
+inoremap m u
+inoremap , q
+inoremap . .
+inoremap / /
+
+" BOTTOM ROW UPPER
+
+
+inoremap Z J
+inoremap X W
+inoremap C M
+inoremap V B
+
+inoremap B X
+
+inoremap N V
+inoremap M U
+inoremap < Q
+inoremap > >
+inoremap ? ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 " old attempt at startegy for keeping ldk at all times
 "Top row lower
 
