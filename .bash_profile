@@ -51,7 +51,6 @@ fi
 #work machine
 workComputer=it-mbp-mlandry
 if [ "$HOSTNAME" = $workComputer ]; then
-  echo 'work computer'
   source ~/.idg_profile # idg stuff
   [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
 fi
