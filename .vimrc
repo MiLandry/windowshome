@@ -80,11 +80,63 @@ inoremap jj <ESC>
 "set langmap='aa,os,ed,uf,ig,dh,hj,tk,nl,s\\;
 "set langmap='sl,nl,tl,hl,fl,,il,el,ol,al
 
+
+
+" other stuff
+" remap escape to jj
+inoremap jj <ESC>
+
+
+" ----------- Remap insert to ldk
+" number row
+inoremap 1 &
+inoremap 2 [
+inoremap 3 {
+inoremap 4 }
+inoremap 5 (
+inoremap 6 *
+inoremap 7 =
+inoremap 8 )
+inoremap 9 +
+inoremap 0 ]
+inoremap - !
+inoremap = #
+
+" NUMBER ROW UPPER
+inoremap 1 &
+inoremap 2 [
+inoremap 3 {
+inoremap 4 }
+inoremap 5 (
+inoremap 6 *
+inoremap 7 =
+inoremap 8 )
+inoremap 9 +
+inoremap 0 ]
+inoremap - !
+inoremap = #
+
+
+inoremap a s
+inoremap s n
+inoremap d t
+inoremap f h
+
+inoremap f h
+inoremap f h
+
+inoremap f h
+inoremap f h
+"inoremap f h
+inoremap f h
+
+
+" old attempt at startegy for keeping ldk at all times
 "Top row lower
 
 "nnoremap p h
-nnoremap r w
-nnoremap c e
+"nnoremap r w
+"nnoremap c e
 "nnoremap g h
 
 "nnoremap k h
@@ -117,23 +169,23 @@ nnoremap c e
 
 "Middle row lower
 
-nnoremap s h
-nnoremap n j
-nnoremap t d
-nnoremap h f
+"nnoremap s h
+"nnoremap n j
+"nnoremap t d
+"nnoremap h f
 
 "nnoremap f h
 "nnoremap ' h
 
 "nnoremap i i
 "nnoremap e h
-nnoremap o k
-nnoremap a l
+"nnoremap o k
+"nnoremap a l
 
 "MIDDLE ROW UPPER
 "nnoremap S h
 "nnoremap N j
-nnoremap T D
+"nnoremap T D
 "nnoremap H h
 
 "nnoremap F h
@@ -148,7 +200,7 @@ nnoremap T D
 
 
 "nnoremap j b
-nnoremap w x
+"nnoremap w x
 "nnoremap m b
 "nnoremap b H
 
@@ -159,6 +211,3 @@ nnoremap w x
 "nnoremap q L
 "nnoremap . q
 "nnoremap / Q
-
-
-
