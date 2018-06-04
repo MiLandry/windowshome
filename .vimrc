@@ -103,38 +103,85 @@ inoremap - !
 inoremap = #
 
 " NUMBER ROW UPPER
-inoremap 1 &
-inoremap 2 [
-inoremap 3 {
-inoremap 4 }
-inoremap 5 (
-inoremap 6 *
-inoremap 7 =
-inoremap 8 )
-inoremap 9 +
-inoremap 0 ]
-inoremap - !
-inoremap = #
+inoremap ! 1
+inoremap @ 2
+inoremap # 3
+inoremap $ 4
+inoremap % 5
+inoremap ^ 6
+inoremap & 7
+inoremap * 8
+inoremap ( 9
+inoremap ) 0
+inoremap _ -
+inoremap + =
 
+"top row
+inoremap q p
+inoremap w r
+inoremap e c
+inoremap r g
+inoremap t k
+inoremap y ;
+inoremap u y
+inoremap i l
+inoremap o d
+inoremap p ,
+inoremap [ z
+inoremap ] ^
+inoremap \ \
+
+"TOP ROW
+inoremap Q P
+inoremap W R
+inoremap E C
+inoremap R G
+inoremap T K
+inoremap Y :
+inoremap U Y
+inoremap I L
+inoremap O D
+inoremap P <
+inoremap { Z
+inoremap } ~
+" inoremap | |
+
+"Middle row lower
 
 inoremap a s
 inoremap s n
 inoremap d t
 inoremap f h
 
-inoremap f h
-inoremap f h
+inoremap g f
+inoremap h '
 
-inoremap f h
-inoremap f h
-"inoremap f h
-inoremap f h
+inoremap j i
+inoremap k e
+inoremap l o
+inoremap ; a
+inoremap ' -
 
+
+"MIDDLE ROW UPPER
+inoremap A S
+inoremap S N
+inoremap D T
+inoremap F H
+
+inoremap G F
+inoremap H "
+
+inoremap J I
+inoremap K E
+inoremap L O
+inoremap : A
+inoremap " _
 
 " old attempt at startegy for keeping ldk at all times
 "Top row lower
 
-"nnoremap p h
+"innoremap p h
 "nnoremap r w
 "nnoremap c e
 "nnoremap g h
