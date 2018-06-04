@@ -2,7 +2,7 @@
 " Settings in this file may depend on plugins, so let's install them first.
 " Not to be confused with the contents of ~/.vim/plugin/* which are
 " configuration options for each plugin and automatically loaded by Vim.
-source ~/.vim/plugin/plugins.vim
+" source ~/.vim/plugin/plugins.vim
 
 " Leader Mappings
 map <Space> <leader>
@@ -59,8 +59,8 @@ set sidescrolloff=10  " Leave 10 characters of horizontal buffer when scrolling
 " Colors & Formatting
 "-------------------------------------------------------------------------------
 
-colorscheme solarized
-set background=dark
+"colorscheme solarized
+"set background=dark
 
 " Showcase comments in italics
 highlight Comment cterm=italic gui=italic
@@ -74,17 +74,52 @@ nnoremap <C-Right> :tabnext<CR>
 "set langmap='aa,os,ed,uf,ig,dh,hj,tk,nl,s\\;
 "set langmap='sl,nl,tl,hl,fl,,il,el,ol,al
 
+"Top row lower
+
+"nnoremap p h
+nnoremap r w
+nnoremap c e
+"nnoremap g h
+
+"nnoremap k h
+"nnoremap ; h
+
+"nnoremap y i
+"nnoremap l h
+"nnoremap d k
+"nnoremap , l
+
+"nnoremap z k
+"nnoremap ^ l
+
+
+"TOP ROW UPPER
+"nnoremap S h
+"nnoremap N j
+"nnoremap T D
+"nnoremap H h
+
+"nnoremap F h
+"nnoremap " h
+
+"nnoremap I h
+"nnoremap E h
+"nnoremap O k
+"nnoremap A l
+
+
+
 "Middle row lower
 
 nnoremap s h
 nnoremap n j
 nnoremap t d
-"nnoremap h h
+nnoremap h f
 
 "nnoremap f h
 "nnoremap ' h
 
-"nnoremap i h
+"nnoremap i i
 "nnoremap e h
 nnoremap o k
 nnoremap a l
