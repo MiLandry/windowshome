@@ -89,6 +89,7 @@ inoremap jj <ESC>
 
 " ----------- Remap insert to ldk
 " number row
+inoremap ` $
 inoremap 1 &
 inoremap 2 [
 inoremap 3 {
@@ -103,6 +104,7 @@ inoremap - !
 inoremap = #
 
 " NUMBER ROW UPPER
+inoremap ~ %
 inoremap ! 1
 inoremap @ 2
 inoremap # 3
