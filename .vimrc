@@ -86,6 +86,7 @@ inoremap jj <ESC>
 " remap escape to jj
 inoremap jj <ESC>
 
+map <C-a> <esc>ggVG<CR>
 
 " ----------- Remap insert to ldk
 " number row
