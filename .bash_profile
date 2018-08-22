@@ -13,6 +13,14 @@ alias gpull='git pull'
 alias paste='pbpaste'
 #also you should rely on keyboard maestro to blow up typed aliases
 
+## just put new science experiments below here
+
+######################################################################
+
+#rename things in iterm
+function title {
+    echo -ne "\033]0;"$*"\007"
+}
 
 # for git bosh on mac
 source ~/.git-prompt.sh

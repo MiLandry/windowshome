@@ -1,0 +1,12 @@
+{
+  "colors": {
+    "alisongreen": "rgb(125,199,53)",
+    "js": "orchid",
+    "html": "gold",
+    "server": "alisongreen",
+    "home": "darkblue",
+    "rentjs": "blue",
+    "rent-js-api": "yellow",
+    "papayawhip": null
+  }
+}
