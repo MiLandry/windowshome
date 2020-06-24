@@ -15,6 +15,10 @@ Function _gas {git status}
 
 Function _gdi {git diff}
 
-Function _com {git commit -m}
+Function _com {
+    $Foo = $args[0]
+    "Foo: $Foo"
+     git commit -a -m "$Foo"
+}
 
 Function _open {explorer .}
