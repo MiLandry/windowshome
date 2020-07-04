@@ -7,7 +7,7 @@ Set-Alias -Name gdi -Value _gdi
 
 Set-Alias -Name com -Value _com
 
-Set-Alias -Name open-Value _open
+Set-Alias -Name open -Value _open
 
 
 
