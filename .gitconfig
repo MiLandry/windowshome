@@ -2,13 +2,14 @@
 	editor = 'subl' --wait
 	excludesfile = /Users/mlandry/.gitignore_global
 	autocrlf = input
+	longpaths = true
 [push]
 	default = current
 [merge]
 	conflictstyle = diff3
 	tool = kdiff3
 [user]
-	name = Michael Landry
+	name = Michael
 	email = mlandryviolin@gmail.com
 [help]
 	autocorrect = 1
