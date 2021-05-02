@@ -1,3 +1,5 @@
+#CURRENT PLAN IS TO DEPRECATE, USE ONLY ONE HOME DIR
+
 # home config directory stuff
 
 ## Stuff checked in here
